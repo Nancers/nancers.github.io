@@ -56,14 +56,14 @@ a:hover {
     right: 0;
 
     /* Transparent to bg gradient */
-	background: url(images/circle.jpg) center center;
+	background: url(images/circle.JPG) center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: -webkit-linear-gradient(top, 
     rgba(0,0,0,0) 60%,
     rgba(0,0,0,1) 100%
   ),
-	url(images/circle.jpg);
+	url(images/circle.JPG);
 }
 
 /* Border on images. */
