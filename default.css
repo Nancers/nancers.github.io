@@ -1,7 +1,8 @@
 body {
 	
 	/* Body bg */
-	background: #dffaff;
+	/*background: #ffffff;*/
+	background: #000000;
 	
 	/* Body font */
 	font-family: 'Open Sans', sans-serif;
@@ -17,7 +18,7 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 50px;
-	color: #2D2D2D;
+	color: #ffffff;
 }
 
 h2 {
@@ -44,6 +45,25 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.bg {
+	position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* Transparent to bg gradient */
+	background: url(images/circle.jpg) center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: -webkit-linear-gradient(top, 
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,1) 100%
+  ),
+	url(images/circle.jpg);
 }
 
 /* Border on images. */
@@ -97,7 +117,7 @@ a:hover {
 /* Header */
 
 #header {
-	background: #DFFAFF;
+	/*background: #DFFAFF;*/
 	height: 600px;
 	color: #2D2D2D;
 	text-align: center;
@@ -124,7 +144,7 @@ a:hover {
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #DFFAFF;
+	/*background: #DFFAFF;*/
 	font-size: 10px;
 	color: #2D2D2D;
 }
@@ -176,7 +196,7 @@ a:hover {
 	
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #DFFAFF;
+	/*background: #DFFAFF;*/
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
